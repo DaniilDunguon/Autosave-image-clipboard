@@ -4,7 +4,7 @@ from re import findall
 from keyboard import is_pressed
 from time import sleep
 
-def bind_images():
+def bind_keys():
     while True:
         sleep(1.5)
         if is_pressed("Ctrl+F2"):
